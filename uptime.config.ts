@@ -106,7 +106,7 @@ const workerConfig: WorkerConfig = {
 // During maintenance, an alert will be shown at status page
 // Also, related downtime notifications will be skipped (if any)
 // Of course, you can leave it empty if you don't need this feature
-const maintenances: MaintenanceConfig[] = [
+let maintenances: MaintenanceConfig[] = [
   {
     // [Optional] Monitor IDs to be affected by this maintenance
     monitors: ['foo_monitor', 'bar_monitor'],
@@ -123,7 +123,7 @@ const maintenances: MaintenanceConfig[] = [
     color: 'blue',
   },
 ]
-MaintenanceConfig[] = []
+maintenances = []
 
 // Don't edit this line
 export { maintenances, pageConfig, workerConfig }
