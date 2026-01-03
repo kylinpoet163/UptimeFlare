@@ -63,7 +63,7 @@ const workerConfig: WorkerConfig = {
   //    tooltip: 'My production server SSH',
  //     statusPageLink: 'https://example.com',
  //     timeout: 5000,
-    },
+   // },
   ],
   // [Optional] Notification settings
   notification: {
