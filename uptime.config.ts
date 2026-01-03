@@ -123,7 +123,7 @@ const maintenances: MaintenanceConfig[] = [
     color: 'blue',
   },
 ]
-const maintenances: MaintenanceConfig[] = []
+MaintenanceConfig[] = []
 
 // Don't edit this line
 export { maintenances, pageConfig, workerConfig }
